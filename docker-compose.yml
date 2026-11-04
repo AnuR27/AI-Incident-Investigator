@@ -1,0 +1,10 @@
+services:
+  api:
+    build: .
+    container_name: ai-incident-investigator
+    network_mode: host
+    environment:
+      OLLAMA_BASE_URL: http://localhost:11434
+    volumes:
+      - ./chroma_db:/app/chroma_db
+    restart: unless-stopped

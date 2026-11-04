@@ -1,0 +1,12 @@
+
+Incident ID: INC-001
+Title: Checkout requests timing out
+
+Summary:
+Checkout requests experienced timeouts during a period of elevated database connection usage.
+
+Investigation notes:
+The available incident report does not confirm whether the database connection pool was exhausted. Current connection metrics and application logs are needed to verify the cause.
+
+Status:
+Root cause unconfirmed.

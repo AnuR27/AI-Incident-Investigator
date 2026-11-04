@@ -1,0 +1,15 @@
+
+Runbook ID: RUNBOOK-001
+Title: Investigating database connection pool exhaustion
+
+Symptoms:
+Database connection pool exhaustion can cause application requests to time out.
+
+Diagnostic checks:
+- Inspect active and idle database connections.
+- Compare active connections with the configured connection pool size.
+- Investigate possible connection leaks.
+- Review application logs for connection acquisition timeouts.
+
+Caution:
+These symptoms alone do not prove that connection pool exhaustion is the root cause.

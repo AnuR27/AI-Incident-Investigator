@@ -1,0 +1,13 @@
+Incident ID: INC-003
+Title: Worker job failures
+
+Summary:
+Background worker jobs failed during the reported incident.
+
+Investigation notes:
+The available report does not identify the failure mechanism.
+No worker logs, queue metrics, or dependency health records
+are available.
+
+Status:
+Root cause unconfirmed.

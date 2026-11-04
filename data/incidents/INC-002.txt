@@ -1,0 +1,12 @@
+Incident ID: INC-002
+Title: Elevated API latency
+
+Summary:
+API response latency increased during a monitoring period.
+
+Investigation notes:
+No application logs, CPU metrics, memory metrics, database metrics,
+or deployment records are available for this incident.
+
+Status:
+Root cause unconfirmed.
